@@ -1,0 +1,49 @@
+div {
+  position: absolute;
+  width: 5vmin;
+  height: 5vmin;
+  background-color: hsl(var(--h, 343), 100%, 50%);
+  border-radius: 50%;
+  mix-blend-mode: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(233, 100%, 10%);
+  font-size: 3vmin;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  //border: 1vmin double hsl(233, 100%, 10%);
+}
+main {
+  position: relative;
+  width: 100vmin;
+  height: 100vmin;
+  margin: auto;
+}
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  background: hsl(233, 100%, 10%);
+}
+* {
+  box-sizing: border-box;
+}
+h1{
+  color: green;
+  text-align: center;
+}
+h2{
+  color: red;
+  text-align: left;
+}
+h3{
+  color: yellow;
+  text-align: right;
+}
+
